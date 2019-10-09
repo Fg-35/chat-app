@@ -44,4 +44,8 @@
 .Contact .status .status-offline {
   background: #f4511e;
 }
-
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
