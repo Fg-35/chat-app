@@ -1,10 +1,11 @@
 import React from 'react';
-import Contact from './component/Contact';
+// import Contact from './component/Contact';
+import ContactList from './component/ContactList';
 
 function App() {
   return (
     <div className="App">
-      <div className = "avatar">
+      {/* <div className = "avatar">
           <Contact
             avatar ="https://static1.comicvine.com/uploads/original/11126/111264158/5124228-0d8ba1057dfcd1025f24fbfbe34e3b66.jpg"
             name = "Kurapika"
@@ -24,7 +25,9 @@ function App() {
             name = "Gon"
             online= {true}
           />
-      </div>
+      </div> */}
+      <ContactList  />
+
     </div>
   );
 }
